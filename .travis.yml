@@ -1,4 +1,2 @@
 language: ruby
-script: true
-notifications:
-  irc: 'chat.freenode.org#henrikhodne'
+script: gem query --local
