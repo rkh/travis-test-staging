@@ -1,3 +1,2 @@
-language: ruby
-script: gem query --local
-  cause: yaml-parse-error
+language: objective-c
+script: echo "It works"
