@@ -1,2 +1,18 @@
-language: objective-c
-script: echo "It works"
+language: ruby
+
+env:
+  global:
+    - FOO=bar
+
+rvm:
+  - 1.9.2
+  - 2.0.0
+
+gemfile:
+  - gemfiles/Gemfile.rails-3.2.x
+  - gemfiles/Gemfile.rails-4.0.x
+
+matrix:
+  exclude:
+    - rvm: 1.9.2
+      gemfile: gemfiles/Gemfile.rails-4.0.x
