@@ -1,2 +1,2 @@
-language: ruby
-script: true
+language: objective-c
+script: security show-keychain-info
