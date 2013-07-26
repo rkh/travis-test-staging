@@ -1,2 +1,2 @@
-language: objective-c
-script: security show-keychain-info
+language: ruby
+script: ruby -e 'puts "hello, world"'
