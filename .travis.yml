@@ -1,2 +1,2 @@
-language: ruby
-script: ruby -e 'puts "hello, world"'
+language: objective-c
+script: false
