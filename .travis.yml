@@ -1,2 +1,2 @@
-language: objective-c
-script: bash --version
+language: ruby
+script: "echo 'Hello, build scripts are working. Yay'"
