@@ -1,2 +1,2 @@
-language: ruby
-script: echo 'It works!'
+language: objective-c
+script: sw_vers
