@@ -1,2 +1,2 @@
-language: objective-c
-script: sw_vers
+language: ruby
+script: git --version
