@@ -1,2 +1,3 @@
-language: ruby
-script: git --version
+language: objective-c
+osx_image: mavericks
+script: sw_vers
