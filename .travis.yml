@@ -1,3 +1,4 @@
 language: objective-c
 osx_image: mavericks
-script: security show-keychain-info
+rvm: ruby-head
+script: "ruby -e 'p 1+1'"
