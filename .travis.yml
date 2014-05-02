@@ -1,5 +1,7 @@
 language: ruby
-ruby: 2.1.1
+ruby:
+  - jruby-1.7-19mode
+  - 2.1.1
+  - ruby-head
 script:
-  - gem install travis
-  - travis status -r travis-ci/travis-core
+  - bundle exec rake hello_world

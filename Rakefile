@@ -1,12 +1,7 @@
-require 'rake' # we need rake!!
+require 'rake'
 
-task :test do
-  1.upto 1000 do
-    sleep(0.1); putc '.'
-    $stdout.flush
-  end
-  sleep(10)
-  exit 0
+task :hello_world do
+  puts "RUBY_ENGINE: #{defined?(RUBY_ENGINE) ? RUBY_ENGINE : 'ruby'};"
+  puts "RUBY_VERSION: #{RUBY_VERSION}"
+  begin; require 'rubygems'; puts "GEM_ROOT: #{Gem.default_dir.inspect};"; rescue LoadError; end
 end
-
-task :default => :test
