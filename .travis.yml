@@ -1,11 +1,7 @@
-language: ruby
-ruby:
-  - jruby-1.7-19mode
-  - 2.1.1
-  - ruby-head
-  - rbx-2.2.6
-  - ree-1.8.7-2011.12
-  - mruby-1.0
-  - maglev-1.0
+language: objective-c
+cache:
+  directories:
+    - something-to-cache
 script:
-  - bundle exec rake hello_world
+  - "touch something-to-cache/$(date '+%s')"
+  - "ls something-to-cache"
