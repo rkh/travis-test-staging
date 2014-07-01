@@ -1,2 +1,2 @@
-language: ruby
-script: ruby -rbundler/setup -e 'p $LOAD_PATH'
+language: objective-c
+script: echo 'It worked'
