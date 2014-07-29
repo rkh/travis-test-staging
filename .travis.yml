@@ -1,6 +1,6 @@
 language: ruby
 install: true
-script: 'echo "Hello"'
+script: 'sleep 5 && echo "Hello"'
 env:
   - FOO=1
   - FOO=2
