@@ -1,2 +1,8 @@
-language: objective-c
-script: echo 'It worked'
+language: ruby
+install: true
+script: 'echo "Hello"'
+env:
+  - FOO=1
+  - FOO=2
+  - FOO=3
+  - FOO=4
