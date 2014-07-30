@@ -1,6 +1,8 @@
 language: ruby
 install: true
-script: 'sleep 5 && echo "Hello"'
+script:
+  - 'sleep 5 && echo "Hello"'
+  - 'travis_retry ruby -e "p ARGV"'
 env:
   - FOO=1
   - FOO=2
