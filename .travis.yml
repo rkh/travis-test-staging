@@ -1,6 +1,2 @@
-language: ruby
-install: true
-script:
-  - 'sleep 5 && echo "Hello"'
-  - 'travis_retry ruby -e "p ARGV"'
-
+language: objective-c
+script: "xctool --version"
