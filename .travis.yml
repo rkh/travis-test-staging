@@ -6,6 +6,10 @@ env:
   - JOSH=cool
   - JOSH=super_cool
   - JOSH=mega_cool
+  - JOSH=hawt
+  - JOSH=ballin
+  - JOSH=sweet_as
+  - JOSH=awesome
 
 before_script: "xctool --version"
 
