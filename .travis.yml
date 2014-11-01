@@ -10,6 +10,8 @@ env:
   - JOSH=ballin
   - JOSH=sweet_as
   - JOSH=awesome
+  - JOSH=tumeke
+  - JOSH=brilliant
 
 before_script: "xctool --version"
 
