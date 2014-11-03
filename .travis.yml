@@ -5,13 +5,13 @@ osx_image: xcode61
 env:
   - JOSH=cool
   - JOSH=super_cool
-  - JOSH=mega_cool
-  - JOSH=hawt
-  - JOSH=ballin
-  - JOSH=sweet_as
-  - JOSH=awesome
-  - JOSH=tumeke
-  - JOSH=brilliant
+  # - JOSH=mega_cool
+  # - JOSH=hawt
+  # - JOSH=ballin
+  # - JOSH=sweet_as
+  # - JOSH=awesome
+  # - JOSH=tumeke
+  # - JOSH=brilliant
 
 before_script: "xctool --version"
 
