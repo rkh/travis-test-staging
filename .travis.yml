@@ -1,4 +1,6 @@
 language: objective-c
+script:
+  - "md5 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/libswiftAssetsLibrary.dylib"
+  - "md5 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/libswiftAssetsLibrary.dylib && grep 13d93a5338a20fba65affc8adda756d4"
+install: "true"
 osx_image: xcode61
-before_script: "xctool --version"
-script: "pod --version"
