@@ -1,6 +1,22 @@
 language: objective-c
 script:
   - "md5 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/libswiftAssetsLibrary.dylib"
-  - "md5 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/libswiftAssetsLibrary.dylib && grep 13d93a5338a20fba65affc8adda756d4"
+  - "md5 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/libswiftAssetsLibrary.dylib | grep 13d93a5338a20fba65affc8adda756d4"
 install: "true"
 osx_image: xcode61
+env:
+  - THE_JOB=1
+  - THE_JOB=2
+  - THE_JOB=3
+  - THE_JOB=4
+  - THE_JOB=5
+  - THE_JOB=6
+  - THE_JOB=7
+  - THE_JOB=8
+  - THE_JOB=9
+  - THE_JOB=10
+  - THE_JOB=11
+  - THE_JOB=12
+  - THE_JOB=13
+  - THE_JOB=14
+  - THE_JOB=15
