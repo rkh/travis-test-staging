@@ -1,4 +1,10 @@
-language: ruby
 sudo: false
-install: "true"
-script: "ls /dev"
+install: true
+script: false
+notifications:
+  email:
+    recipients:
+      - henrihod@ulrik.uio.no
+    on_success: always
+    on_failure: always
+
