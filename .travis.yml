@@ -1,10 +1,15 @@
-sudo: false
+language: ruby
 install: true
-script: false
-notifications:
-  email:
-    recipients:
-      - henrihod@ulrik.uio.no
-    on_success: always
-    on_failure: always
-
+script: "echo 'hello world'"
+env:
+  matrix:
+    - JOB=0
+    - JOB=1
+    - JOB=2
+    - JOB=3
+    - JOB=4
+    - JOB=5
+    - JOB=6
+    - JOB=7
+    - JOB=8
+    - JOB=9
