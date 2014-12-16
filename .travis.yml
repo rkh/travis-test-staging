@@ -1,4 +1,4 @@
-language: objective-c
-osx_image: xcode611
-install: pod --version
-script: xctool --version
+language: ruby
+sudo: true
+install: echo Hello
+script: echo world
