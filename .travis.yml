@@ -1,7 +1,7 @@
-language: ruby
-sudo: true
-install: echo Hello
-script: echo world
+language: objective-c
+osx_image: xcode611
+install: pod --version
+script: xctool --version
 env:
   matrix:
     - JOB=1
