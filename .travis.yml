@@ -1,4 +1,3 @@
-language: ruby
+language: objective-c
 install: ls /dev
 script: "ruby -e 'sleep 30'"
-sudo: false
