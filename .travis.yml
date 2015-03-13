@@ -1,3 +1,9 @@
 language: objective-c
+
+env:
+  - TEAL=love
+  - BLUE=love
+
 install: ls /dev
+
 script: "ruby -e 'sleep 30'"
