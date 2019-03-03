@@ -1,2 +1,12 @@
 language: ruby
+
 script: true
+
+env:
+  - TEAL=love
+  - BLUE=love
+
+
+
+
+
